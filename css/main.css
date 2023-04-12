@@ -1,0 +1,48 @@
+.content {
+    display: flex;
+    position: absolute;
+    background-image: url('../img/main-background.avif');
+    background-size: 100% 100%;
+    width: 80%;
+    height: 70%;
+    background-color: var(--main-color);
+    top: 20%;
+    left: 10%;
+    right: 10%;
+    bottom: 20%;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 400px;
+}
+
+.content__rpg-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 91px;
+    justify-content: center;
+    margin: 0 0 0 300px;
+}
+
+.content__rpg-1__categorie {
+    background-color: var(--button-color);
+    border: 1px solid #000;
+    border-radius: 15px;
+    font-size: 32px;
+    padding: 5px 91px;
+}
+
+.content__rpg-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 91px;
+    justify-content: center;
+    margin: 0 300px 0 0;
+}
+
+.content__rpg-2__categorie {
+    background-color: var(--button-color);
+    border: 1px solid #000;
+    border-radius: 15px;
+    font-size: 32px;
+    padding: 5px 91px;
+}

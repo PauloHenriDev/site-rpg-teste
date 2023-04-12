@@ -1,0 +1,37 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--header-color);
+    height: 80px;
+    border-bottom: 5px solid #000;
+}
+
+.navigation__categories {
+    display: inherit;
+    align-items: center;
+    margin: 0px 680px 0 0px;
+}
+
+.navigation__categories__text {
+    font-family: var(--principal-font);
+    color: var(--font-color-secundary);
+    font-size: 32px;
+    font-weight: var(--principal-font-weight);
+}
+
+.navigation__categories__text.-rpg {
+    margin: 0 300px 0 620px;
+}
+
+.navigation__categories__text::before {
+    content: "•";
+    color: var(--font-color-secundary);
+    margin: 0 10px 0 0;
+}
+
+.navigation__login {
+    background-color: var(--font-color-secundary);
+    justify-content: center;
+    width: 80px;
+    border-radius: 200px;
+}

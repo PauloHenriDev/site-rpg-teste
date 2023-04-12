@@ -1,0 +1,45 @@
+/* Estilos para o componente de dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Estilos para o botão que aciona o dropdown */
+  .dropbtn {
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  /* Estilos para a janela do dropdown */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  /* Estilos para os links dentro da janela do dropdown */
+  .dropdown-content a {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Estilos para os links quando o mouse passa por cima deles */
+  .dropdown-content a:hover {
+    color: #fff;
+    background-color: #333;
+  }
+  
+  /* Exibe a janela do dropdown quando o mouse passa por cima do botão */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
